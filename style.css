@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --color: rgb(247, 127, 127);
+}
+.header1 {
+    padding: 10px 10px;
+    color: lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+.fouricon {
+    width: 20%;
+}
+.icon1 {
+    margin-left:10px ;
+    color: black;
+    background-color:lightgray;
+}
+.right {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    
+}
+.header2 {
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid lightgray;
+  
+}
+.header2 h1 {
+    color: var(--color);
+}
+.textbox {
+    width: 50%;
+    /* background-color: green; */
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+.input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+}
+.threeicon {
+    padding: 10px;
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header3 {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header3 h3:hover {
+    color: gray;
+}
